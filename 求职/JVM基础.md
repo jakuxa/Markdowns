@@ -1,6 +1,6 @@
 ## JVM基础知识结构
 
-![image-20200707103248970](/Users/jakuxa/Library/Application Support/typora-user-images/image-20200707103248970.png)
+![image-20200707103248970](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707103248970.png)
 
 ### JVM调优
 
@@ -22,7 +22,7 @@
 
 根加载器无法通过getClassLoader()方法获得，因为它是用C写的，其他则是java写的，便可以获得
 
-![image-20200707104644361](/Users/jakuxa/Library/Application Support/typora-user-images/image-20200707104644361.png)
+![image-20200707104644361](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707104644361.png)
 
 ```java
 //类是模板，对象才是实例
@@ -62,7 +62,7 @@ sout(aClass1.getClass().getClassLoader())
 
 > 限制java运行的环境，将方法限制在jvm的环境内。
 
-![image-20200707112938351](/Users/jakuxa/Library/Application Support/typora-user-images/image-20200707112938351.png)
+![image-20200707112938351](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707112938351.png)
 
 详见：https://blog.csdn.net/qq_30336433/article/details/83268945
 
@@ -76,23 +76,23 @@ sout(aClass1.getClass().getClassLoader())
 //携带native修饰词的，会进入本地方法栈
 ```
 
-![image-20200707115743440](/Users/jakuxa/Library/Application Support/typora-user-images/image-20200707115743440.png)
+![image-20200707115743440](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707115743440.png)
 
 
 
 ### PC寄存器
 
-![image-20200707120051257](/Users/jakuxa/Library/Application Support/typora-user-images/image-20200707120051257.png)
+![image-20200707120051257](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707120051257.png)
 
 ### 方法区
 
-![image-20200707120115515](/Users/jakuxa/Library/Application Support/typora-user-images/image-20200707120115515.png)
+![image-20200707120115515](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707120115515.png)
 
 
 
 ### 方法栈
 
-![image-20200707123435263](/Users/jakuxa/Library/Application Support/typora-user-images/image-20200707123435263.png)
+![image-20200707123435263](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707123435263.png)
 
 
 
