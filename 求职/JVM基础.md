@@ -76,23 +76,23 @@ sout(aClass1.getClass().getClassLoader())
 //携带native修饰词的，会进入本地方法栈
 ```
 
-![image-20200707115743440](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707115743440.png)
+
 
 
 
 ### PC寄存器
 
-![image-20200707120051257](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707120051257.png)
+
 
 ### 方法区
 
-![image-20200707120115515](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707120115515.png)
+
 
 
 
 ### 方法栈
 
-![image-20200707123435263](http://www.jakuxa.cn:11020/images/2020/07/24/image-20200707123435263.png)
+
 
 
 
